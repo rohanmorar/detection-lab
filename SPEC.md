@@ -1,6 +1,6 @@
 # DETECTION ENGINEERING LAB — Build Specification
 ### A CS61B-style assignment: SSH Brute-Force & Password-Spray Detector
-**Author:** Rohan | **Stack:** Python 3.10+, pytest, SQLite, Wireshark, Suricata, Hydra, Nmap
+**Scaffold:** build plan drafted with Claude and Kimi | **Implementation, tests, and tuning:** Rohan | **Stack:** Python 3.10+, pytest, SQLite, Wireshark, Suricata, Hydra, Nmap
 **Estimated effort:** 10 modules × 2–4 hrs each, over ~2 weeks of evenings
 
 ---
