@@ -4,7 +4,8 @@ This document confirms the lab environment is correctly built, isolated, and tha
 
 ## Environment summary
 
-- **Target:** Ubuntu Server 24.04.4 LTS, hostname `target`, user `rohan` + 7 decoy accounts (`waddams`, `mluffy`, `rozoro`, `imidoriya`, `sgojo`, `blee`, `agrande`)
+Rebuild note (Oct 2026): The original lab was lost with my laptop and rebuilt on a temp laptop from these docs. The rebuild uses Ubuntu Server 24.04.5 and Suricata 7.0.3 on the same VMnet1 network (192.168.233.0/24), but with the addresses swapped: target 192.168.233.129, Kali 192.168.233.128. This document records the original lab, so the IPs below are the old ones. The decoy accounts and the custom rule are unchanged.
+- **Target:** Ubuntu Server 24.04.4 LTS, hostname `target`, user `rohan` + 7 decoy accounts (`soofle`, `brwny`, `smoro`, `shaki`, `brule`, `dhoji`, `crema`)
 - **Attacker:** Kali Linux (official pre-built VMware image)
 - **Network:** VMware host-only (`VMnet1`, `192.168.233.0/24`), no NAT/internet access on the target
   - Target: `192.168.233.128`
