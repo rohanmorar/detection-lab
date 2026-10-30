@@ -1,0 +1,47 @@
+[
+  {
+    "run_id": "benign",
+    "label": "benign",
+    "start": "2026-10-28T18:14:17+00:00",
+    "end": "2026-10-28T19:18:25+00:00",
+    "source_ip": "192.168.233.128",
+    "target_users": ["rohan"],
+    "notes": "5x interactive login+sudo check, 1-2 fat-finger failed logins, 12x scripted successful login loop (150s interval) as engineered FP candidate"
+  },
+  {
+    "run_id": "A1",
+    "label": "out_of_scope",
+    "start": "2026-10-28T19:18:25+00:00",
+    "end": "2026-10-28T19:23:55+00:00",
+    "source_ip": "192.168.233.128",
+    "target_users": [],
+    "notes": "SYN scan, ports 1-1000, only 22/tcp open — produces zero auth.log lines; not an auth-based technique, outside scope of brute_force/spray/low_and_slow rules. Correct detector behavior: no alert."
+  },
+  {
+    "run_id": "A2",
+    "label": "brute_force",
+    "start": "2026-10-28T19:26:20+00:00",
+    "end": "2026-10-28T19:27:52+00:00",
+    "source_ip": "192.168.233.128",
+    "target_users": ["rohan"],
+    "notes": "success — password found in 49 attempts (full list exhausted almost immediately, 4 parallel tasks), 1m32s wall time"
+  },
+  {
+    "run_id": "A3",
+    "label": "password_spray",
+    "start": "2026-10-28T19:32:34+00:00",
+    "end": "2026-10-28T19:33:51+00:00",
+    "source_ip": "192.168.233.128",
+    "target_users": ["rohan", "soofle", "brwny", "smore", "shaki", "brule", "dhoji", "crema"],
+    "notes": "0/8 valid passwords found (expected), 8 usernames x 1 password, 1m17s wall time. See run_journal.md A3 note: 'smoro' typo in users.txt vs actual account 'smore' — harmless extra invalid-user line."
+  },
+  {
+    "run_id": "A4",
+    "label": "low_and_slow",
+    "start": "2026-10-28T19:43:36+00:00",
+    "end": "2026-10-29T01:58:49+00:00",
+    "source_ip": "192.168.233.128",
+    "target_users": ["rohan"],
+    "notes": "10/10 attempts completed against rohan, 0 valid password found, ~270s spacing. See run_journal.md A4: VM suspend between attempts #9-#10 extended the window to ~6h15m (uncontrolled variable, not deliberate design)."
+  }
+]
