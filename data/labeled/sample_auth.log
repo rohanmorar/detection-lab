@@ -1,0 +1,362 @@
+2026-10-28T18:14:17.482056+00:00 target sshd[2353]: Accepted publickey for rohan from 192.168.233.128 port 48846 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:14:17.484671+00:00 target sshd[2353]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:14:17.489755+00:00 target systemd-logind[932]: New session 25 of user rohan.
+2026-10-28T18:14:17.998592+00:00 target sshd[2410]: Received disconnect from 192.168.233.128 port 48846:11: disconnected by user
+2026-10-28T18:14:18.000055+00:00 target sshd[2410]: Disconnected from user rohan 192.168.233.128 port 48846
+2026-10-28T18:14:18.000103+00:00 target sshd[2353]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:14:18.004507+00:00 target systemd-logind[932]: Session 25 logged out. Waiting for processes to exit.
+2026-10-28T18:14:18.006371+00:00 target systemd-logind[932]: Removed session 25.
+2026-10-28T18:15:01.391282+00:00 target CRON[2413]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T18:15:01.403337+00:00 target CRON[2413]: pam_unix(cron:session): session closed for user root
+2026-10-28T18:15:06.367133+00:00 target sshd[2416]: Accepted publickey for rohan from 192.168.233.128 port 55310 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:15:06.368050+00:00 target sshd[2416]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:15:06.373627+00:00 target systemd-logind[932]: New session 27 of user rohan.
+2026-10-28T18:15:06.542410+00:00 target sudo: pam_unix(sudo:auth): conversation failed
+2026-10-28T18:15:06.542817+00:00 target sudo: pam_unix(sudo:auth): auth could not identify password for [rohan]
+2026-10-28T18:15:06.544178+00:00 target sshd[2464]: Received disconnect from 192.168.233.128 port 55310:11: disconnected by user
+2026-10-28T18:15:06.544527+00:00 target sshd[2464]: Disconnected from user rohan 192.168.233.128 port 55310
+2026-10-28T18:15:06.545662+00:00 target sshd[2416]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:15:06.549927+00:00 target systemd-logind[932]: Session 27 logged out. Waiting for processes to exit.
+2026-10-28T18:15:06.550810+00:00 target systemd-logind[932]: Removed session 27.
+2026-10-28T18:15:21.723546+00:00 target sshd[2467]: Accepted publickey for rohan from 192.168.233.128 port 44730 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:15:21.727215+00:00 target sshd[2467]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:15:21.731863+00:00 target systemd-logind[932]: New session 28 of user rohan.
+2026-10-28T18:15:22.444045+00:00 target sudo: pam_unix(sudo:auth): conversation failed
+2026-10-28T18:15:22.444454+00:00 target sudo: pam_unix(sudo:auth): auth could not identify password for [rohan]
+2026-10-28T18:15:22.446604+00:00 target sshd[2524]: Received disconnect from 192.168.233.128 port 44730:11: disconnected by user
+2026-10-28T18:15:22.446750+00:00 target sshd[2524]: Disconnected from user rohan 192.168.233.128 port 44730
+2026-10-28T18:15:22.447758+00:00 target sshd[2467]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:15:22.451414+00:00 target systemd-logind[932]: Session 28 logged out. Waiting for processes to exit.
+2026-10-28T18:15:22.454356+00:00 target systemd-logind[932]: Removed session 28.
+2026-10-28T18:15:37.571037+00:00 target sshd[2527]: Accepted publickey for rohan from 192.168.233.128 port 48696 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:15:37.573546+00:00 target sshd[2527]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:15:37.579306+00:00 target systemd-logind[932]: New session 29 of user rohan.
+2026-10-28T18:15:37.758032+00:00 target sudo: pam_unix(sudo:auth): conversation failed
+2026-10-28T18:15:37.758773+00:00 target sudo: pam_unix(sudo:auth): auth could not identify password for [rohan]
+2026-10-28T18:15:37.759742+00:00 target sshd[2575]: Received disconnect from 192.168.233.128 port 48696:11: disconnected by user
+2026-10-28T18:15:37.759789+00:00 target sshd[2575]: Disconnected from user rohan 192.168.233.128 port 48696
+2026-10-28T18:15:37.760000+00:00 target sshd[2527]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:15:37.762973+00:00 target systemd-logind[932]: Session 29 logged out. Waiting for processes to exit.
+2026-10-28T18:15:37.763373+00:00 target systemd-logind[932]: Removed session 29.
+2026-10-28T18:15:52.850275+00:00 target sshd[2578]: Accepted publickey for rohan from 192.168.233.128 port 41602 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:15:52.852961+00:00 target sshd[2578]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:15:52.856981+00:00 target systemd-logind[932]: New session 30 of user rohan.
+2026-10-28T18:15:53.021972+00:00 target sudo: pam_unix(sudo:auth): conversation failed
+2026-10-28T18:15:53.022504+00:00 target sudo: pam_unix(sudo:auth): auth could not identify password for [rohan]
+2026-10-28T18:15:53.062293+00:00 target sshd[2626]: Received disconnect from 192.168.233.128 port 41602:11: disconnected by user
+2026-10-28T18:15:53.062370+00:00 target sshd[2626]: Disconnected from user rohan 192.168.233.128 port 41602
+2026-10-28T18:15:53.062435+00:00 target sshd[2578]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:15:53.062884+00:00 target systemd-logind[932]: Session 30 logged out. Waiting for processes to exit.
+2026-10-28T18:15:53.063800+00:00 target systemd-logind[932]: Removed session 30.
+2026-10-28T18:16:08.164746+00:00 target sshd[2629]: Accepted publickey for rohan from 192.168.233.128 port 49832 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:16:08.166989+00:00 target sshd[2629]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:16:08.175275+00:00 target systemd-logind[932]: New session 31 of user rohan.
+2026-10-28T18:16:08.446306+00:00 target sudo: pam_unix(sudo:auth): conversation failed
+2026-10-28T18:16:08.446599+00:00 target sudo: pam_unix(sudo:auth): auth could not identify password for [rohan]
+2026-10-28T18:16:08.449015+00:00 target sshd[2677]: Received disconnect from 192.168.233.128 port 49832:11: disconnected by user
+2026-10-28T18:16:08.449189+00:00 target sshd[2677]: Disconnected from user rohan 192.168.233.128 port 49832
+2026-10-28T18:16:08.450365+00:00 target sshd[2629]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:16:08.456672+00:00 target systemd-logind[932]: Session 31 logged out. Waiting for processes to exit.
+2026-10-28T18:16:08.458677+00:00 target systemd-logind[932]: Removed session 31.
+2026-10-28T18:16:40.676532+00:00 target sshd[2681]: Invalid user roha from 192.168.233.128 port 54942
+2026-10-28T18:16:45.183490+00:00 target sshd[2681]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-28T18:16:45.183817+00:00 target sshd[2681]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128 
+2026-10-28T18:16:46.981141+00:00 target sshd[2681]: Failed password for invalid user roha from 192.168.233.128 port 54942 ssh2
+2026-10-28T18:16:49.306292+00:00 target sshd[2681]: Connection closed by invalid user roha 192.168.233.128 port 54942 [preauth]
+2026-10-28T18:17:01.410837+00:00 target CRON[2683]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T18:17:01.420144+00:00 target CRON[2683]: pam_unix(cron:session): session closed for user root
+2026-10-28T18:17:33.782016+00:00 target sshd[2686]: Invalid user rohanm from 192.168.233.128 port 44220
+2026-10-28T18:17:37.596900+00:00 target sshd[2686]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-28T18:17:37.597043+00:00 target sshd[2686]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128 
+2026-10-28T18:17:40.202042+00:00 target sshd[2686]: Failed password for invalid user rohanm from 192.168.233.128 port 44220 ssh2
+2026-10-28T18:17:43.502667+00:00 target sshd[2686]: Connection closed by invalid user rohanm 192.168.233.128 port 44220 [preauth]
+2026-10-28T18:18:28.003110+00:00 target sshd[2689]: Accepted publickey for rohan from 192.168.233.128 port 33964 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:18:28.005179+00:00 target sshd[2689]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:18:28.010389+00:00 target systemd-logind[932]: New session 33 of user rohan.
+2026-10-28T18:18:28.564483+00:00 target sshd[2746]: Received disconnect from 192.168.233.128 port 33964:11: disconnected by user
+2026-10-28T18:18:28.565127+00:00 target sshd[2746]: Disconnected from user rohan 192.168.233.128 port 33964
+2026-10-28T18:18:28.567958+00:00 target sshd[2689]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:18:28.570064+00:00 target systemd-logind[932]: Session 33 logged out. Waiting for processes to exit.
+2026-10-28T18:18:28.571929+00:00 target systemd-logind[932]: Removed session 33.
+2026-10-28T18:20:58.707178+00:00 target sshd[2755]: Accepted publickey for rohan from 192.168.233.128 port 42068 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:20:58.711806+00:00 target sshd[2755]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:20:58.717266+00:00 target systemd-logind[932]: New session 34 of user rohan.
+2026-10-28T18:20:59.334759+00:00 target sshd[2812]: Received disconnect from 192.168.233.128 port 42068:11: disconnected by user
+2026-10-28T18:20:59.337365+00:00 target sshd[2812]: Disconnected from user rohan 192.168.233.128 port 42068
+2026-10-28T18:20:59.337732+00:00 target sshd[2755]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:20:59.341043+00:00 target systemd-logind[932]: Session 34 logged out. Waiting for processes to exit.
+2026-10-28T18:20:59.342407+00:00 target systemd-logind[932]: Removed session 34.
+2026-10-28T18:23:29.509278+00:00 target sshd[2814]: Accepted publickey for rohan from 192.168.233.128 port 41196 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:23:29.512045+00:00 target sshd[2814]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:23:29.515937+00:00 target systemd-logind[932]: New session 35 of user rohan.
+2026-10-28T18:23:30.146032+00:00 target sshd[2871]: Received disconnect from 192.168.233.128 port 41196:11: disconnected by user
+2026-10-28T18:23:30.147049+00:00 target sshd[2871]: Disconnected from user rohan 192.168.233.128 port 41196
+2026-10-28T18:23:30.151246+00:00 target sshd[2814]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:23:30.156654+00:00 target systemd-logind[932]: Session 35 logged out. Waiting for processes to exit.
+2026-10-28T18:23:30.158156+00:00 target systemd-logind[932]: Removed session 35.
+2026-10-28T18:25:01.440123+00:00 target CRON[2876]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T18:25:01.440493+00:00 target CRON[2876]: pam_unix(cron:session): session closed for user root
+2026-10-28T18:26:00.376382+00:00 target sshd[2879]: Accepted publickey for rohan from 192.168.233.128 port 57448 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:26:00.381236+00:00 target sshd[2879]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:26:00.386000+00:00 target systemd-logind[932]: New session 37 of user rohan.
+2026-10-28T18:26:01.029609+00:00 target sshd[2936]: Received disconnect from 192.168.233.128 port 57448:11: disconnected by user
+2026-10-28T18:26:01.031821+00:00 target sshd[2936]: Disconnected from user rohan 192.168.233.128 port 57448
+2026-10-28T18:26:01.031978+00:00 target sshd[2879]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:26:01.035374+00:00 target systemd-logind[932]: Session 37 logged out. Waiting for processes to exit.
+2026-10-28T18:26:01.036922+00:00 target systemd-logind[932]: Removed session 37.
+2026-10-28T18:28:31.101480+00:00 target sshd[2940]: Accepted publickey for rohan from 192.168.233.128 port 48944 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:28:31.108820+00:00 target sshd[2940]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:28:31.119051+00:00 target systemd-logind[932]: New session 38 of user rohan.
+2026-10-28T18:28:31.666324+00:00 target sshd[2997]: Received disconnect from 192.168.233.128 port 48944:11: disconnected by user
+2026-10-28T18:28:31.666676+00:00 target sshd[2997]: Disconnected from user rohan 192.168.233.128 port 48944
+2026-10-28T18:28:31.670443+00:00 target sshd[2940]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:28:31.673068+00:00 target systemd-logind[932]: Session 38 logged out. Waiting for processes to exit.
+2026-10-28T18:28:31.673590+00:00 target systemd-logind[932]: Removed session 38.
+2026-10-28T18:31:01.822306+00:00 target sshd[3006]: Accepted publickey for rohan from 192.168.233.128 port 45056 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:31:01.826931+00:00 target sshd[3006]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:31:01.831949+00:00 target systemd-logind[932]: New session 39 of user rohan.
+2026-10-28T18:31:02.215500+00:00 target sshd[3063]: Received disconnect from 192.168.233.128 port 45056:11: disconnected by user
+2026-10-28T18:31:02.218155+00:00 target sshd[3063]: Disconnected from user rohan 192.168.233.128 port 45056
+2026-10-28T18:31:02.218239+00:00 target sshd[3006]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:31:02.220193+00:00 target systemd-logind[932]: Session 39 logged out. Waiting for processes to exit.
+2026-10-28T18:31:02.220843+00:00 target systemd-logind[932]: Removed session 39.
+2026-10-28T18:33:32.387310+00:00 target sshd[3067]: Accepted publickey for rohan from 192.168.233.128 port 35708 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:33:32.401272+00:00 target sshd[3067]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:33:32.406373+00:00 target systemd-logind[932]: New session 40 of user rohan.
+2026-10-28T18:33:32.997028+00:00 target sshd[3124]: Received disconnect from 192.168.233.128 port 35708:11: disconnected by user
+2026-10-28T18:33:32.997261+00:00 target sshd[3124]: Disconnected from user rohan 192.168.233.128 port 35708
+2026-10-28T18:33:32.997962+00:00 target sshd[3067]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:33:33.002913+00:00 target systemd-logind[932]: Session 40 logged out. Waiting for processes to exit.
+2026-10-28T18:33:33.005774+00:00 target systemd-logind[932]: Removed session 40.
+2026-10-28T18:35:01.451925+00:00 target CRON[3128]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T18:35:01.461110+00:00 target CRON[3128]: pam_unix(cron:session): session closed for user root
+2026-10-28T18:36:03.172706+00:00 target sshd[3132]: Accepted publickey for rohan from 192.168.233.128 port 51476 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:36:03.213207+00:00 target sshd[3132]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:36:03.219928+00:00 target systemd-logind[932]: New session 42 of user rohan.
+2026-10-28T18:36:03.868486+00:00 target sshd[3189]: Received disconnect from 192.168.233.128 port 51476:11: disconnected by user
+2026-10-28T18:36:03.907580+00:00 target sshd[3189]: Disconnected from user rohan 192.168.233.128 port 51476
+2026-10-28T18:36:03.908393+00:00 target sshd[3132]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:36:03.911688+00:00 target systemd-logind[932]: Session 42 logged out. Waiting for processes to exit.
+2026-10-28T18:36:03.913481+00:00 target systemd-logind[932]: Removed session 42.
+2026-10-28T18:38:34.043600+00:00 target sshd[3193]: Accepted publickey for rohan from 192.168.233.128 port 37172 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:38:34.047348+00:00 target sshd[3193]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:38:34.093030+00:00 target systemd-logind[932]: New session 43 of user rohan.
+2026-10-28T18:38:34.828377+00:00 target sshd[3250]: Received disconnect from 192.168.233.128 port 37172:11: disconnected by user
+2026-10-28T18:38:34.828865+00:00 target sshd[3250]: Disconnected from user rohan 192.168.233.128 port 37172
+2026-10-28T18:38:34.829167+00:00 target sshd[3193]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:38:34.835186+00:00 target systemd-logind[932]: Session 43 logged out. Waiting for processes to exit.
+2026-10-28T18:38:34.836741+00:00 target systemd-logind[932]: Removed session 43.
+2026-10-28T18:42:30.295953+00:00 target sshd[3281]: Accepted publickey for rohan from 192.168.233.128 port 43688 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:42:30.297834+00:00 target sshd[3281]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:42:30.301903+00:00 target systemd-logind[932]: New session 44 of user rohan.
+2026-10-28T18:42:30.685324+00:00 target sshd[3338]: Received disconnect from 192.168.233.128 port 43688:11: disconnected by user
+2026-10-28T18:42:30.688171+00:00 target sshd[3338]: Disconnected from user rohan 192.168.233.128 port 43688
+2026-10-28T18:42:30.689473+00:00 target sshd[3281]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:42:30.689518+00:00 target systemd-logind[932]: Session 44 logged out. Waiting for processes to exit.
+2026-10-28T18:42:30.690348+00:00 target systemd-logind[932]: Removed session 44.
+2026-10-28T18:45:00.858095+00:00 target sshd[3344]: Accepted publickey for rohan from 192.168.233.128 port 58398 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T18:45:00.864214+00:00 target sshd[3344]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T18:45:00.870384+00:00 target systemd-logind[932]: New session 45 of user rohan.
+2026-10-28T18:45:01.571752+00:00 target sshd[3401]: Received disconnect from 192.168.233.128 port 58398:11: disconnected by user
+2026-10-28T18:45:01.571935+00:00 target sshd[3401]: Disconnected from user rohan 192.168.233.128 port 58398
+2026-10-28T18:45:01.572477+00:00 target sshd[3344]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T18:45:01.578223+00:00 target systemd-logind[932]: Session 45 logged out. Waiting for processes to exit.
+2026-10-28T18:45:01.579570+00:00 target systemd-logind[932]: Removed session 45.
+2026-10-28T18:45:01.842625+00:00 target CRON[3403]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T18:45:01.849075+00:00 target CRON[3403]: pam_unix(cron:session): session closed for user root
+2026-10-28T19:07:49.878082+00:00 target sshd[3410]: Accepted publickey for rohan from 192.168.233.128 port 55894 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:07:49.880950+00:00 target sshd[3410]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:07:49.884370+00:00 target systemd-logind[932]: New session 47 of user rohan.
+2026-10-28T19:07:50.240659+00:00 target sshd[3467]: Received disconnect from 192.168.233.128 port 55894:11: disconnected by user
+2026-10-28T19:07:50.244017+00:00 target sshd[3467]: Disconnected from user rohan 192.168.233.128 port 55894
+2026-10-28T19:07:50.244076+00:00 target systemd-logind[932]: Session 47 logged out. Waiting for processes to exit.
+2026-10-28T19:07:50.244121+00:00 target sshd[3410]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:07:50.244178+00:00 target systemd-logind[932]: Removed session 47.
+2026-10-28T19:15:01.015041+00:00 target CRON[3481]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T19:15:01.030053+00:00 target CRON[3481]: pam_unix(cron:session): session closed for user root
+2026-10-28T19:17:01.036725+00:00 target CRON[3486]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T19:17:01.046830+00:00 target CRON[3486]: pam_unix(cron:session): session closed for user root
+2026-10-28T19:18:24.996006+00:00 target sshd[3489]: Accepted publickey for rohan from 192.168.233.128 port 38002 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:18:24.997067+00:00 target sshd[3489]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:18:25.004831+00:00 target systemd-logind[932]: New session 50 of user rohan.
+2026-10-28T19:18:25.784051+00:00 target sshd[3588]: Received disconnect from 192.168.233.128 port 38002:11: disconnected by user
+2026-10-28T19:18:25.785793+00:00 target sshd[3588]: Disconnected from user rohan 192.168.233.128 port 38002
+2026-10-28T19:18:25.786351+00:00 target sshd[3489]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:18:25.793064+00:00 target systemd-logind[932]: Session 50 logged out. Waiting for processes to exit.
+2026-10-28T19:18:25.795473+00:00 target systemd-logind[932]: Removed session 50.
+2026-10-28T19:23:54.518735+00:00 target sshd[3598]: Accepted publickey for rohan from 192.168.233.128 port 57532 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:23:54.520418+00:00 target sshd[3598]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:23:54.527651+00:00 target systemd-logind[932]: New session 51 of user rohan.
+2026-10-28T19:23:55.286659+00:00 target sshd[3655]: Received disconnect from 192.168.233.128 port 57532:11: disconnected by user
+2026-10-28T19:23:55.294137+00:00 target sshd[3655]: Disconnected from user rohan 192.168.233.128 port 57532
+2026-10-28T19:23:55.294637+00:00 target sshd[3598]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:23:55.294697+00:00 target systemd-logind[932]: Session 51 logged out. Waiting for processes to exit.
+2026-10-28T19:23:55.296063+00:00 target systemd-logind[932]: Removed session 51.
+2026-10-28T19:26:20.032497+00:00 target sshd[3722]: Accepted publickey for rohan from 192.168.233.128 port 53068 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:26:20.038835+00:00 target sshd[3722]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:26:20.046158+00:00 target systemd-logind[932]: New session 54 of user rohan.
+2026-10-28T19:26:20.764421+00:00 target sshd[3779]: Received disconnect from 192.168.233.128 port 53068:11: disconnected by user
+2026-10-28T19:26:20.765630+00:00 target sshd[3779]: Disconnected from user rohan 192.168.233.128 port 53068
+2026-10-28T19:26:20.766126+00:00 target sshd[3722]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:26:20.770339+00:00 target systemd-logind[932]: Session 54 logged out. Waiting for processes to exit.
+2026-10-28T19:26:20.773238+00:00 target systemd-logind[932]: Removed session 54.
+2026-10-28T19:27:20.644717+00:00 target sshd[3784]: Received disconnect from 192.168.233.128 port 39512:11: Bye Bye [preauth]
+2026-10-28T19:27:20.645198+00:00 target sshd[3784]: Disconnected from authenticating user rohan 192.168.233.128 port 39512 [preauth]
+2026-10-28T19:27:20.988182+00:00 target sshd[3786]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:21.010430+00:00 target sshd[3787]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:21.011524+00:00 target sshd[3789]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:21.015940+00:00 target sshd[3788]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:22.670794+00:00 target sshd[3787]: Failed password for rohan from 192.168.233.128 port 39524 ssh2
+2026-10-28T19:27:22.708756+00:00 target sshd[3789]: Failed password for rohan from 192.168.233.128 port 39550 ssh2
+2026-10-28T19:27:22.708988+00:00 target sshd[3788]: Failed password for rohan from 192.168.233.128 port 39528 ssh2
+2026-10-28T19:27:22.846090+00:00 target sshd[3786]: Failed password for rohan from 192.168.233.128 port 39526 ssh2
+2026-10-28T19:27:25.250496+00:00 target sshd[3786]: Failed password for rohan from 192.168.233.128 port 39526 ssh2
+2026-10-28T19:27:25.270876+00:00 target sshd[3789]: Failed password for rohan from 192.168.233.128 port 39550 ssh2
+2026-10-28T19:27:25.280588+00:00 target sshd[3788]: Failed password for rohan from 192.168.233.128 port 39528 ssh2
+2026-10-28T19:27:25.280835+00:00 target sshd[3787]: Failed password for rohan from 192.168.233.128 port 39524 ssh2
+2026-10-28T19:27:27.992806+00:00 target sshd[3786]: Failed password for rohan from 192.168.233.128 port 39526 ssh2
+2026-10-28T19:27:28.012620+00:00 target sshd[3789]: Failed password for rohan from 192.168.233.128 port 39550 ssh2
+2026-10-28T19:27:28.023118+00:00 target sshd[3788]: Failed password for rohan from 192.168.233.128 port 39528 ssh2
+2026-10-28T19:27:28.023486+00:00 target sshd[3787]: Failed password for rohan from 192.168.233.128 port 39524 ssh2
+2026-10-28T19:27:30.934651+00:00 target sshd[3786]: Failed password for rohan from 192.168.233.128 port 39526 ssh2
+2026-10-28T19:27:30.950460+00:00 target sshd[3789]: Failed password for rohan from 192.168.233.128 port 39550 ssh2
+2026-10-28T19:27:31.133147+00:00 target sshd[3787]: Failed password for rohan from 192.168.233.128 port 39524 ssh2
+2026-10-28T19:27:31.134248+00:00 target sshd[3788]: Failed password for rohan from 192.168.233.128 port 39528 ssh2
+2026-10-28T19:27:34.006689+00:00 target sshd[3786]: Failed password for rohan from 192.168.233.128 port 39526 ssh2
+2026-10-28T19:27:34.024818+00:00 target sshd[3789]: Failed password for rohan from 192.168.233.128 port 39550 ssh2
+2026-10-28T19:27:34.069276+00:00 target sshd[3787]: Failed password for rohan from 192.168.233.128 port 39524 ssh2
+2026-10-28T19:27:34.081565+00:00 target sshd[3788]: Failed password for rohan from 192.168.233.128 port 39528 ssh2
+2026-10-28T19:27:34.322750+00:00 target sshd[3789]: Accepted password for rohan from 192.168.233.128 port 39550 ssh2
+2026-10-28T19:27:34.327108+00:00 target sshd[3789]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:27:34.333389+00:00 target systemd-logind[932]: New session 55 of user rohan.
+2026-10-28T19:27:34.373983+00:00 target sshd[3787]: Connection closed by authenticating user rohan 192.168.233.128 port 39524 [preauth]
+2026-10-28T19:27:34.374106+00:00 target sshd[3787]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:34.374273+00:00 target sshd[3787]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-10-28T19:27:34.377124+00:00 target sshd[3788]: Connection closed by authenticating user rohan 192.168.233.128 port 39528 [preauth]
+2026-10-28T19:27:34.377722+00:00 target sshd[3788]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:34.377869+00:00 target sshd[3788]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-10-28T19:27:34.932848+00:00 target sshd[3789]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:27:34.937700+00:00 target systemd-logind[932]: Session 55 logged out. Waiting for processes to exit.
+2026-10-28T19:27:34.938709+00:00 target systemd-logind[932]: Removed session 55.
+2026-10-28T19:27:36.411777+00:00 target sshd[3786]: Failed password for rohan from 192.168.233.128 port 39526 ssh2
+2026-10-28T19:27:36.952874+00:00 target sshd[3786]: error: maximum authentication attempts exceeded for rohan from 192.168.233.128 port 39526 ssh2 [preauth]
+2026-10-28T19:27:36.953049+00:00 target sshd[3786]: Disconnecting authenticating user rohan 192.168.233.128 port 39526: Too many authentication failures [preauth]
+2026-10-28T19:27:36.954861+00:00 target sshd[3786]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:36.955017+00:00 target sshd[3786]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-10-28T19:27:37.049762+00:00 target sshd[3850]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:27:39.241453+00:00 target sshd[3850]: Failed password for rohan from 192.168.233.128 port 46484 ssh2
+2026-10-28T19:27:39.706697+00:00 target sshd[3850]: Connection closed by authenticating user rohan 192.168.233.128 port 46484 [preauth]
+2026-10-28T19:27:51.877808+00:00 target sshd[3852]: Accepted publickey for rohan from 192.168.233.128 port 54710 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:27:51.881659+00:00 target sshd[3852]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:27:51.886271+00:00 target systemd-logind[932]: New session 56 of user rohan.
+2026-10-28T19:27:52.094881+00:00 target sshd[3900]: Received disconnect from 192.168.233.128 port 54710:11: disconnected by user
+2026-10-28T19:27:52.097385+00:00 target sshd[3900]: Disconnected from user rohan 192.168.233.128 port 54710
+2026-10-28T19:27:52.097514+00:00 target sshd[3852]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:27:52.102144+00:00 target systemd-logind[932]: Session 56 logged out. Waiting for processes to exit.
+2026-10-28T19:27:52.104024+00:00 target systemd-logind[932]: Removed session 56.
+2026-10-28T19:32:34.322437+00:00 target sshd[3969]: Accepted publickey for rohan from 192.168.233.128 port 60084 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:32:34.327829+00:00 target sshd[3969]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:32:34.334603+00:00 target systemd-logind[932]: New session 58 of user rohan.
+2026-10-28T19:32:34.944131+00:00 target sshd[4026]: Received disconnect from 192.168.233.128 port 60084:11: disconnected by user
+2026-10-28T19:32:34.951691+00:00 target sshd[4026]: Disconnected from user rohan 192.168.233.128 port 60084
+2026-10-28T19:32:34.951894+00:00 target sshd[3969]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:32:34.951939+00:00 target systemd-logind[932]: Session 58 logged out. Waiting for processes to exit.
+2026-10-28T19:32:34.954601+00:00 target systemd-logind[932]: Removed session 58.
+2026-10-28T19:33:36.762715+00:00 target sshd[4029]: Received disconnect from 192.168.233.128 port 33872:11: Bye Bye [preauth]
+2026-10-28T19:33:36.764687+00:00 target sshd[4029]: Disconnected from authenticating user rohan 192.168.233.128 port 33872 [preauth]
+2026-10-28T19:33:37.105698+00:00 target sshd[4031]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=soofle
+2026-10-28T19:33:37.119497+00:00 target sshd[4034]: Invalid user smoro from 192.168.233.128 port 33894
+2026-10-28T19:33:37.123839+00:00 target sshd[4034]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-28T19:33:37.124007+00:00 target sshd[4034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128 
+2026-10-28T19:33:37.138420+00:00 target sshd[4033]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=brwny
+2026-10-28T19:33:37.208349+00:00 target sshd[4032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:33:39.385469+00:00 target sshd[4031]: Failed password for soofle from 192.168.233.128 port 33878 ssh2
+2026-10-28T19:33:39.401636+00:00 target sshd[4034]: Failed password for invalid user smoro from 192.168.233.128 port 33894 ssh2
+2026-10-28T19:33:39.417803+00:00 target sshd[4033]: Failed password for brwny from 192.168.233.128 port 33892 ssh2
+2026-10-28T19:33:39.488069+00:00 target sshd[4032]: Failed password for rohan from 192.168.233.128 port 33882 ssh2
+2026-10-28T19:33:39.721467+00:00 target sshd[4034]: Received disconnect from 192.168.233.128 port 33894:11: Bye Bye [preauth]
+2026-10-28T19:33:39.721597+00:00 target sshd[4034]: Disconnected from invalid user smoro 192.168.233.128 port 33894 [preauth]
+2026-10-28T19:33:39.798884+00:00 target sshd[4032]: Received disconnect from 192.168.233.128 port 33882:11: Bye Bye [preauth]
+2026-10-28T19:33:39.799017+00:00 target sshd[4032]: Disconnected from authenticating user rohan 192.168.233.128 port 33882 [preauth]
+2026-10-28T19:33:39.806617+00:00 target sshd[4039]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=shaki
+2026-10-28T19:33:39.889453+00:00 target sshd[4041]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=brule
+2026-10-28T19:33:40.232359+00:00 target sshd[4033]: Received disconnect from 192.168.233.128 port 33892:11: Bye Bye [preauth]
+2026-10-28T19:33:40.232493+00:00 target sshd[4033]: Disconnected from authenticating user brwny 192.168.233.128 port 33892 [preauth]
+2026-10-28T19:33:40.412907+00:00 target sshd[4043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=dhoji
+2026-10-28T19:33:40.821405+00:00 target sshd[4031]: Received disconnect from 192.168.233.128 port 33878:11: Bye Bye [preauth]
+2026-10-28T19:33:40.821568+00:00 target sshd[4031]: Disconnected from authenticating user soofle 192.168.233.128 port 33878 [preauth]
+2026-10-28T19:33:40.901582+00:00 target sshd[4045]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=crema
+2026-10-28T19:33:41.694282+00:00 target sshd[4039]: Failed password for shaki from 192.168.233.128 port 33858 ssh2
+2026-10-28T19:33:41.776393+00:00 target sshd[4041]: Failed password for brule from 192.168.233.128 port 33864 ssh2
+2026-10-28T19:33:42.103320+00:00 target sshd[4043]: Failed password for dhoji from 192.168.233.128 port 33868 ssh2
+2026-10-28T19:33:42.160025+00:00 target sshd[4043]: Connection closed by authenticating user dhoji 192.168.233.128 port 33868 [preauth]
+2026-10-28T19:33:42.592726+00:00 target sshd[4045]: Failed password for crema from 192.168.233.128 port 33874 ssh2
+2026-10-28T19:33:42.600372+00:00 target sshd[4045]: Connection closed by authenticating user crema 192.168.233.128 port 33874 [preauth]
+2026-10-28T19:33:43.446154+00:00 target sshd[4041]: Connection closed by authenticating user brule 192.168.233.128 port 33864 [preauth]
+2026-10-28T19:33:43.590686+00:00 target sshd[4039]: Connection closed by authenticating user shaki 192.168.233.128 port 33858 [preauth]
+2026-10-28T19:33:51.169832+00:00 target sshd[4047]: Accepted publickey for rohan from 192.168.233.128 port 39962 ssh2: ED25519 SHA256:C1RSG5187dzi2v6jMSXSdipEqbh30noK3WPzkKS5doM
+2026-10-28T19:33:51.173449+00:00 target sshd[4047]: pam_unix(sshd:session): session opened for user rohan(uid=1000) by rohan(uid=0)
+2026-10-28T19:33:51.181437+00:00 target systemd-logind[932]: New session 59 of user rohan.
+2026-10-28T19:33:51.838361+00:00 target sshd[4104]: Received disconnect from 192.168.233.128 port 39962:11: disconnected by user
+2026-10-28T19:33:51.838669+00:00 target sshd[4104]: Disconnected from user rohan 192.168.233.128 port 39962
+2026-10-28T19:33:51.839274+00:00 target sshd[4047]: pam_unix(sshd:session): session closed for user rohan
+2026-10-28T19:33:51.846672+00:00 target systemd-logind[932]: Session 59 logged out. Waiting for processes to exit.
+2026-10-28T19:33:51.850313+00:00 target systemd-logind[932]: Removed session 59.
+2026-10-28T19:43:36.884682+00:00 target sshd[4320]: Failed password for rohan from 192.168.233.128 port 32960 ssh2
+2026-10-28T19:43:37.571384+00:00 target sshd[4320]: Connection closed by authenticating user rohan 192.168.233.128 port 32960 [preauth]
+2026-10-28T19:45:01.096572+00:00 target CRON[4322]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T19:45:01.099563+00:00 target CRON[4322]: pam_unix(cron:session): session closed for user root
+2026-10-28T19:48:07.767647+00:00 target sshd[4328]: Received disconnect from 192.168.233.128 port 40872:11: Bye Bye [preauth]
+2026-10-28T19:48:07.767764+00:00 target sshd[4328]: Disconnected from authenticating user rohan 192.168.233.128 port 40872 [preauth]
+2026-10-28T19:48:08.079893+00:00 target sshd[4330]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T19:48:10.599560+00:00 target sshd[4330]: Failed password for rohan from 192.168.233.128 port 40880 ssh2
+2026-10-28T19:48:10.711677+00:00 target sshd[4330]: Connection closed by authenticating user rohan 192.168.233.128 port 40880 [preauth]
+2026-10-28T20:15:01.446925+00:00 target CRON[4424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T20:15:01.455696+00:00 target CRON[4424]: pam_unix(cron:session): session closed for user root
+2026-10-28T20:15:14.189657+00:00 target sshd[4427]: Received disconnect from 192.168.233.128 port 50008:11: Bye Bye [preauth]
+2026-10-28T20:15:14.189877+00:00 target sshd[4427]: Disconnected from authenticating user rohan 192.168.233.128 port 50008 [preauth]
+2026-10-28T20:15:14.567560+00:00 target sshd[4429]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:15:16.309789+00:00 target sshd[4429]: Failed password for rohan from 192.168.233.128 port 50020 ssh2
+2026-10-28T20:15:17.126397+00:00 target sshd[4429]: Connection closed by authenticating user rohan 192.168.233.128 port 50020 [preauth]
+2026-10-28T20:17:01.458918+00:00 target CRON[4434]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T20:17:01.464182+00:00 target CRON[4434]: pam_unix(cron:session): session closed for user root
+2026-10-28T20:19:47.315035+00:00 target sshd[4561]: Received disconnect from 192.168.233.128 port 36698:11: Bye Bye [preauth]
+2026-10-28T20:19:47.315213+00:00 target sshd[4561]: Disconnected from authenticating user rohan 192.168.233.128 port 36698 [preauth]
+2026-10-28T20:19:47.621458+00:00 target sshd[4563]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:19:49.508079+00:00 target sshd[4563]: Failed password for rohan from 192.168.233.128 port 36708 ssh2
+2026-10-28T20:19:50.252276+00:00 target sshd[4563]: Connection closed by authenticating user rohan 192.168.233.128 port 36708 [preauth]
+2026-10-28T20:24:20.425465+00:00 target sshd[4571]: Received disconnect from 192.168.233.128 port 34012:11: Bye Bye [preauth]
+2026-10-28T20:24:20.425774+00:00 target sshd[4571]: Disconnected from authenticating user rohan 192.168.233.128 port 34012 [preauth]
+2026-10-28T20:24:20.727266+00:00 target sshd[4573]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:24:23.091358+00:00 target sshd[4573]: Failed password for rohan from 192.168.233.128 port 34024 ssh2
+2026-10-28T20:24:23.358414+00:00 target sshd[4573]: Connection closed by authenticating user rohan 192.168.233.128 port 34024 [preauth]
+2026-10-28T20:25:01.469890+00:00 target CRON[4576]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T20:25:01.472578+00:00 target CRON[4576]: pam_unix(cron:session): session closed for user root
+2026-10-28T20:28:53.542122+00:00 target sshd[4580]: Received disconnect from 192.168.233.128 port 48518:11: Bye Bye [preauth]
+2026-10-28T20:28:53.542250+00:00 target sshd[4580]: Disconnected from authenticating user rohan 192.168.233.128 port 48518 [preauth]
+2026-10-28T20:28:53.848478+00:00 target sshd[4582]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:28:55.690943+00:00 target sshd[4582]: Failed password for rohan from 192.168.233.128 port 48520 ssh2
+2026-10-28T20:28:56.477440+00:00 target sshd[4582]: Connection closed by authenticating user rohan 192.168.233.128 port 48520 [preauth]
+2026-10-28T20:33:26.671323+00:00 target sshd[4590]: Received disconnect from 192.168.233.128 port 51538:11: Bye Bye [preauth]
+2026-10-28T20:33:26.672948+00:00 target sshd[4590]: Disconnected from authenticating user rohan 192.168.233.128 port 51538 [preauth]
+2026-10-28T20:33:26.974737+00:00 target sshd[4592]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:33:29.629428+00:00 target sshd[4592]: Failed password for rohan from 192.168.233.128 port 51554 ssh2
+2026-10-28T20:33:32.268469+00:00 target sshd[4592]: Connection closed by authenticating user rohan 192.168.233.128 port 51554 [preauth]
+2026-10-28T20:39:45.832569+00:00 target CRON[4594]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T20:39:45.835675+00:00 target CRON[4594]: pam_unix(cron:session): session closed for user root
+2026-10-28T20:42:46.803100+00:00 target sshd[4603]: Received disconnect from 192.168.233.128 port 58866:11: Bye Bye [preauth]
+2026-10-28T20:42:46.803509+00:00 target sshd[4603]: Disconnected from authenticating user rohan 192.168.233.128 port 58866 [preauth]
+2026-10-28T20:42:47.105387+00:00 target sshd[4605]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:42:49.443263+00:00 target sshd[4605]: Failed password for rohan from 192.168.233.128 port 58878 ssh2
+2026-10-28T20:42:49.736513+00:00 target sshd[4605]: Connection closed by authenticating user rohan 192.168.233.128 port 58878 [preauth]
+2026-10-28T20:45:01.840924+00:00 target CRON[4608]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-28T20:45:01.844750+00:00 target CRON[4608]: pam_unix(cron:session): session closed for user root
+2026-10-28T20:47:19.863937+00:00 target sshd[4612]: Received disconnect from 192.168.233.128 port 45384:11: Bye Bye [preauth]
+2026-10-28T20:47:19.864063+00:00 target sshd[4612]: Disconnected from authenticating user rohan 192.168.233.128 port 45384 [preauth]
+2026-10-28T20:47:20.162433+00:00 target sshd[4614]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-28T20:47:22.975146+00:00 target sshd[4614]: Failed password for rohan from 192.168.233.128 port 45394 ssh2
+2026-10-28T20:47:25.454489+00:00 target sshd[4614]: Connection closed by authenticating user rohan 192.168.233.128 port 45394 [preauth]
+2026-10-29T01:58:48.239178+00:00 target sshd[4655]: Received disconnect from 192.168.233.128 port 38212:11: Bye Bye [preauth]
+2026-10-29T01:58:48.239314+00:00 target sshd[4655]: Disconnected from authenticating user rohan 192.168.233.128 port 38212 [preauth]
+2026-10-29T01:58:48.543091+00:00 target sshd[4657]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.233.128  user=rohan
+2026-10-29T01:58:49.895328+00:00 target sshd[4657]: Failed password for rohan from 192.168.233.128 port 38224 ssh2

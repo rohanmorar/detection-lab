@@ -2,6 +2,8 @@
 
 Running log of what got built, what broke, and what I learned along the way. Kept in sequence, module by module, so it doubles as source material for write-ups and LinkedIn posts later.
 
+Laptop died mid-project. Rebuilt the whole Module 1 lab from my own docs in a couple of sessions.
+
 ---
 
 ## Module 1: Lab Environment Setup & Verification
