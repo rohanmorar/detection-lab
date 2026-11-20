@@ -204,7 +204,7 @@ from datetime import datetime
 @dataclass
 class AuthEvent:
     """One parsed line of auth.log."""
-    ts: datetime          # event timestamp
+    timestamp: datetime   # timezone-aware (UTC offset from auth.log)
     source_ip: str
     username: str
     success: bool         # True = accepted, False = failed
